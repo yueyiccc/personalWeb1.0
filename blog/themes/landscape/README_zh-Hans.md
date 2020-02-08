@@ -2,79 +2,78 @@
 
 [![build-img]][travis]
 [![release-img]][releases]
-[![hexo-image]][hexo]
 [![license-img]](LICENSE)
+[![hexo-image]][hexo]
 
 ❤️ SPA, flat and clean theme for [Hexo].
 
-[中文文档](README_zh-Hans.md)
-
 ## Summary
 
-- [Preview](#preview)
-- [Features](#features)
-- [Quick start](#quick-start)
-- [Changelog](#changelog)
-- [FAQ](#faq)
+- [预览](#预览)
+- [特色](#特色)
+- [开始使用](#开始使用)
+- [浏览器支持](#浏览器支持)
+- [更新日志](#更新日志)
+- [常见问题](#faq)
 - [License](#license)
 
-## Preview
+## 预览
 
 - https://blog.oniuo.com
 - https://blog.oniuo.com/post/inside-theme-showcase
 
-## Features
+## 特色
 
 - SPA built with [angular]
-- Custom accent color, background, fonts, dark mode
-- Custom code syntax highlighting
-- Search
-- Comments
+- 自定义色调、背景、字体、暗色主题
+- 自定义代码语法高亮
+- 评论
   - [Disqus]
   - [LiveRe]
-  - Support most comment systems as plugin
-- Enhanced content display
-  - Thumbnail
-  - Dropcap
-  - Zoomable images
-  - Optimized table display (headless table, long table)
-  - Table of content
-  - Copyright notice
-  - Reward
+  - 以插件的形式支持大多数评论系统
+- 搜索
+- 增强的文章展示
+  - 缩略图
+  - 首字下沉
+  - 文章图片点击放大
+  - 优化的 table 展示（无头表格、长表格）
+  - 目录
+  - 版权声明
+  - 打赏
 - [PWA]
-  - Immersive design
+  - 沉浸式设计
   - [manifest.json]
-  - Offline support ([workbox])
+  - 离线支持 ([workbox])
 - SEO
-  - Built-in `sitemap.xml`
+  - 内置 `sitemap.xml`
   - [Structured Data]
-- Print friendly
+- 打印友好
 
-## Quick start
+## 开始使用
 
-1\. Download the latest version from [releases], unpack and rename to `inside`, then put it in the themes directory.
+1\. 自行下载（[releases]），解压并重命名为 `inside`，然后将其放在 themes 目录。
 
-2\. Config `HEXO/_config.yml` as follows:
+2\. 配置 `HEXO/_config.yml` 如下：
 
 ```yml
 theme: inside
 ```
 
-3\. Read [documentation] to configure the theme.
+3\. 主题配置请参阅 [documentation]。
 
-## Browser Support
+## 浏览器支持
 
 - Evergreen
 
-## Changelog
+## 更新日志
 
 [releases]
 
-## FAQ
+## 常见问题
 
-- Where to find front-end source code?
+- source 目录的源码在哪?
 
-  It's placed at https://bitbucket.org/ikeq/hexo-theme-inside-ng for historical reason.
+  因历史原因托管在 https://bitbucket.org/ikeq/hexo-theme-inside-ng 。
 
 ## License
 
